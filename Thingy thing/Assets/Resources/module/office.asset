@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea1568be0156a8d44b25a1c2a6437bcd, type: 3}
+  m_Name: office
+  m_EditorClassIdentifier: 
+  price: 1000
+  upkeep: 20
+  electricity: 1
+  output: {fileID: 11400000, guid: 465d8d9b30c8ea24f84f4f8e7865ba69, type: 2}
+  outputAmount: 100
+  needs:
+  - {fileID: 11400000, guid: b8978b3588f606646be1f5ac45e901d3, type: 2}
+  - {fileID: 11400000, guid: 4331b44a7a46fe64196c8f539343a5ce, type: 2}
+  - {fileID: 11400000, guid: 3e110084ad490bf40b0132874d0ab124, type: 2}
+  needsAmount: 1e000000140000000a000000
